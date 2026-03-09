@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My First Website</title>
+    <title>Adiel - My Website</title>
     <style>
       body {
-        background-color: black;
+        background-color: #0a0a0a;
         color: gold;
         font-family: Arial;
         text-align: center;
         padding: 50px;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 48px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 20px;
+        color: #cccccc;
+      }
+
+      .goal {
+        color: gold;
+        font-size: 22px;
+        font-weight: bold;
+      }
+
+      button {
+        background: gold;
+        color: black;
+        padding: 15px 40px;
+        font-size: 18px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-top: 30px;
+      }
+
+      button:hover {
+        background: white;
+      }
+
+      .card {
+        background: #1a1a1a;
+        border: 1px solid gold;
+        border-radius: 15px;
+        padding: 30px;
+        max-width: 500px;
+        margin: 40px auto;
       }
     </style>
   </head>
   <body>
     <h1>Hello, I am Adiel!</h1>
-    <p>I am learning to code.</p>
-    <p>My goal is to be a billionaire in 10 years 💰</p>
+    <div class="card">
+      <p>I am learning to code.</p>
+      <p>I am learning Git and GitHub.</p>
+      <p class="goal">💰 My goal: billionaire in 10 years</p>
+    </div>
+    <button>Contact Me</button>
   </body>
 </html>
